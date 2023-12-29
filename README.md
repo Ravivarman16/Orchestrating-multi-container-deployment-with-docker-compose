@@ -77,5 +77,42 @@ Imagine a scenario where you have developed a web application that comprises mul
 ---
 
 
+#### Step:4 - Deploying the web-server using Docker-Compose:
+
+1. Execute the `docker-compose.yaml` file using the following command:
+
+    ```bash
+    docker-compose up -d
+    ```
+
+2. Check the running containers using the following commands:
+
+    ```bash
+    docker ps
+    docker-compose ps
+    ```
+
+3. Check the Docker images using the following command:
+
+    ```bash
+    docker images
+    ```
+
+4. Stop the running containers using the following command:
+
+    ```bash
+    docker-compose down
+    ```
+
+---
+
+#### Container Output:
+
+#### Container-1:
+
+![image](https://github.com/Ravivarman16/Orchestrating-multi-container-deployment-with-docker-compose/assets/129171351/1f6f6a09-10f5-4389-b900-13eea35dc894)
+
+
+
 
 
