@@ -106,13 +106,52 @@ Imagine a scenario where you have developed a web application that comprises mul
 
 ---
 
-#### Container Output:
+## CONTAINER OUTPUT:
 
 #### Container-1:
 
 ![image](https://github.com/Ravivarman16/Orchestrating-multi-container-deployment-with-docker-compose/assets/129171351/1f6f6a09-10f5-4389-b900-13eea35dc894)
 
+---
 
+#### Container-2:
 
+![image](https://github.com/Ravivarman16/Orchestrating-multi-container-deployment-with-docker-compose/assets/129171351/31cae033-157a-4321-a92b-b6a601294acc)
+
+---
+
+#### Container-3:
+
+![image](https://github.com/Ravivarman16/Orchestrating-multi-container-deployment-with-docker-compose/assets/129171351/ff2db629-1ca8-47cc-977c-a7ce25a1f8b7)
+
+---
+
+#### Container-4:
+
+![image](https://github.com/Ravivarman16/Orchestrating-multi-container-deployment-with-docker-compose/assets/129171351/ad407551-3ee3-4fd8-944b-6afbd6d170b8)
+
+---
+
+#### Container-5:
+
+![image](https://github.com/Ravivarman16/Orchestrating-multi-container-deployment-with-docker-compose/assets/129171351/d41fd2a6-e8f0-4e58-b635-1014fcd5deab)
+
+---
+
+## BENEFITS OF DOING ABOVE TASK:
+
+- **Efficient Deployment:** Docker Compose streamlines the deployment of multiple containers, eliminating manual configuration and potential errors.
+
+- **Port Organization:** Assigning specific ports to each container enhances clarity and accessibility, making it easier to manage and troubleshoot.
+
+- **Scalability:** As your application grows, Docker Compose simplifies the scaling process, allowing you to add or remove containers seamlessly.
+
+- **Consistency:** Ensures consistency across different environments, making it reliable for development, testing, and production stages.
+
+- **Resource Optimization:** Optimizes resource utilization by running only the necessary services, promoting efficiency and cost-effectiveness.
+
+---
+
+All the files used for this task have been uploaded to the GitHub repository: [Orchestrating-multi-container-deployment-with-docker-compose](https://github.com/Ravivarman16/Orchestrating-multi-container-deployment-with-docker-compose.git)
 
 
