@@ -25,3 +25,22 @@ Imagine a scenario where you have developed a web application that comprises mul
 ### GitHub Repository
 
 [Orchestrating-multi-container-deployment-with-docker-compose](https://github.com/Ravivarman16/Orchestrating-multi-container-deployment-with-docker-compose.git)
+
+---
+
+# STEPS TO IMPLEMENT THIS TASK
+
+## STEP 1 – LAUNCHING AN EC2 INSTANCE:
+
+1. On your **AWS Management Console,** go to your **EC2 Management console,** then launch an **EC2 Instance.**
+
+2. **Include the security group or create a new security group,** with the following security group rules:
+
+    - Custom TCP with port number: 8000 -> anywhere
+    - Custom TCP with port number: 8080 -> anywhere
+    - Custom TCP with port number: 9000 -> anywhere
+    - Custom TCP with port number: 9090 -> anywhere
+    - Custom TCP with port number: 5000 -> anywhere
+
+---
+
