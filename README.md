@@ -28,9 +28,10 @@ Imagine a scenario where you have developed a web application that comprises mul
 
 ---
 
-# STEPS TO IMPLEMENT THIS TASK
+### STEPS TO IMPLEMENT THIS TASK
 
-## STEP 1 – LAUNCHING AN EC2 INSTANCE:
+#### Step:1 - Launching an EC2 Instance:
+
 
 1. On your **AWS Management Console,** go to your **EC2 Management console,** then launch an **EC2 Instance.**
 
@@ -43,4 +44,6 @@ Imagine a scenario where you have developed a web application that comprises mul
     - Custom TCP with port number: 5000 -> anywhere
 
 ---
+
+
 
