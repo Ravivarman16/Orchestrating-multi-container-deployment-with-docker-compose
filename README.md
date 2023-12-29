@@ -70,5 +70,12 @@ Imagine a scenario where you have developed a web application that comprises mul
 
 ---
 
+#### Step:3 – Creating a Dockerfile:
+
+1. Create 5 different dockerfile for this task
+   
+---
+
+
 
 
