@@ -154,4 +154,6 @@ Imagine a scenario where you have developed a web application that comprises mul
 
 All the files used for this task have been uploaded to the GitHub repository: [Orchestrating-multi-container-deployment-with-docker-compose](https://github.com/Ravivarman16/Orchestrating-multi-container-deployment-with-docker-compose.git)
 
+---
 
+## All the steps for the above task has been explained in this pdf file [ORCHESTRATING MULTI-CONTAINER DEPLOYMENT WITH DOCKER-COMPOSE.pdf](https://github.com/Ravivarman16/Orchestrating-multi-container-deployment-with-docker-compose/files/13793533/ORCHESTRATING.MULTI-CONTAINER.DEPLOYMENT.WITH.DOCKER-COMPOSE.pdf)
