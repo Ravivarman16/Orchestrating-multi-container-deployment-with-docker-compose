@@ -45,5 +45,30 @@ Imagine a scenario where you have developed a web application that comprises mul
 
 ---
 
+#### Step:2 – Connecting the Instance and installing the necessary packages & software:
+
+1. **Clone the GitHub repository** using the following command:
+
+    ```bash
+    git clone https://github.com/Ravivarman16/Orchestrating-multi-container-deployment-with-docker-compose.git
+    cd Orchestrating-multi-container-deployment-with-docker-compose
+    ```
+
+2. Change the file permissions and execute the `docker-install.sh` file:
+
+    ```bash
+    chmod +x docker-install.sh
+    ./docker-install.sh
+    ```
+
+3. Verify the installation of **Docker and Docker Compose** with the following commands:
+
+    ```bash
+    docker --version
+    docker-compose --version
+    ```
+
+---
+
 
 
