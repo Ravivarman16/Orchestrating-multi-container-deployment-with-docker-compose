@@ -1,0 +1,14 @@
+#1.Dockerfile for container1:
+#choosing the base iamge:
+FROM nginx
+
+#defining the work directory:
+WORKDIR /usr/share/nginx/html
+
+#removing the index.html and creating a index.html with the content:
+RUN rm -rf index.html
+RUN echo "This image is created for Container -1" > index.html
+
+#exposing the container and running it:
+EXPOSE 80
+CMD [ "nginx", "-g", "daemon off;"]

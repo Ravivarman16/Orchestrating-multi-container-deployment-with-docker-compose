@@ -1,0 +1,22 @@
+#5.Dockerfile for container:5
+#choosing the base iamge:
+FROM ubuntu
+
+#installing apache2:
+RUN apt-get update
+RUN apt-get install -y apache2
+RUN apt-get update
+RUN apt-get install -y apache2-utils
+RUN apt-get update
+
+#setting up working directory:
+WORKDIR /var/www/html
+
+#removing the index.html and creating a index.html with the content:
+RUN rm -rf index.html
+RUN echo "This image is created for Container -5" > index.html
+
+#exposing the container and running it:
+EXPOSE 80
+ENTRYPOINT [ "apache2ctl" ]
+CMD [ "-DFOREGROUND" ]

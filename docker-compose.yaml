@@ -1,0 +1,46 @@
+version: '3'
+services:
+  container1:
+    build:
+      context: .
+      dockerfile: dockerfile1
+    image: container1
+    container_name: container1
+    ports:
+      - 8000:80
+
+  container2:
+    build:
+      context: .
+      dockerfile: dockerfile2
+    image: container2
+    container_name: container2
+    ports:
+      - 8080:80
+  
+  container3:
+    build:
+      context: .
+      dockerfile: dockerfile3
+    image: container3
+    container_name: container3
+    ports:
+      - 9000:80
+
+  container4:
+    build:
+      context: .
+      dockerfile: dockerfile4
+    image: container4
+    container_name: container4
+    ports:
+      - 9090:80
+
+  container5:
+    build:
+      context: .
+      dockerfile: dockerfile5
+    image: container5
+    container_name: container5
+    ports:
+      - 5000:80
